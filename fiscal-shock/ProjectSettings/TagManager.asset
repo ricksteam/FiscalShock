@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Wall
+  - Obstacle
+  - Decoration
+  - Ground
+  - Missile
+  - Compass
+  - Crosshair
+  - Player Flashlight
+  - Dungeon Directional Light
+  - Portal
+  - HUD
+  - Shoot
+  - Player Hit Vignette
+  - Enemy Projectile
+  - Spawn Point
+  - Loading Screen
+  - Assistant
+  - Debt Collector
+  - Player Inventory
+  - Player Text
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Decoration
+  - Enemy
+  - Player
+  - Wall
+  - EnemyAvoidanceTrigger
+  - Explosive
+  - Obstacle
+  - DC Movement
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - HideFromScene
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

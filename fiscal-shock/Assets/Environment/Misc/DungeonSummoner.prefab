@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &965116058272088901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 965116058272088903}
+  - component: {fileID: 965116058272088900}
+  - component: {fileID: 2858400961614686392}
+  m_Layer: 0
+  m_Name: DungeonSummoner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &965116058272088903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965116058272088901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &965116058272088900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965116058272088901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dfad3498916735e8263a54ab5d48b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 208130074868200894, guid: bc7ef44de2f694932a9d0fc4d3a3d809,
+    type: 3}
+  seed: 0
+  dungeonThemes:
+  - gameObject: {fileID: 0}
+    typeEnum: 0
+  - gameObject: {fileID: 0}
+    typeEnum: 1
+  triggerPrefab: {fileID: 50287540902432943, guid: 4292eb1d6f6e4cd78889defea75f6b3f,
+    type: 3}
+  debtCollectorPrefab: {fileID: 6021063351833058460, guid: ea6b63c3f876b444cb970334eccd44a8,
+    type: 3}
+  debugWeapons:
+  - {fileID: 1094064583168317089, guid: ba1a8906c0df00e5d9d82251b2832875, type: 3}
+  - {fileID: 3961932855569333518, guid: 0385b27ee1e40c61db8e25b36971ec03, type: 3}
+  debugCash: 1000
+  timesEntered: 1
+  currentFloor: 1
+--- !u!114 &2858400961614686392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965116058272088901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fafc341139e4fcbbc570aa5c0ab22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

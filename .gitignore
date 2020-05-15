@@ -1,0 +1,73 @@
+### Visual Studio Code ###
+.vscode
+
+# Visual Studio cache directory
+.vs/
+
+# Gradle cache directory
+.gradle/
+
+.DS_Store
+
+# CI/CD testing remnants
+venv/
+docs/
+sphinx/exhale
+sphinx/xml
+
+# Temp files
+*.*~
+
+##################################################################
+# Git LFS - Remove these from ignore if you choose to use Git LFS!
+
+# 3D models
+*.3d
+*.3ds
+*.blend
+*.c4d
+*.collada
+*.dae
+*.dxf
+*.fbx
+*.FBX
+*.jas
+*.lws
+*.lxo
+*.ma
+*.max
+*.mb
+*.obj
+*.OBJ
+*.ply
+*.skp
+*.stl
+*.ztl
+# Audio
+*.aif
+*.aiff
+*.it
+*.mod
+*.mp3
+*.ogg
+*.s3m
+*.wav
+*.xm
+# Fonts
+*.otf
+*.ttf
+# Images
+*.bmp
+*.exr
+*.gif
+*.hdr
+*.iff
+*.jpeg
+*.jpg
+*.pict
+*.png
+*.psd
+*.tga
+*.tif
+*.tiff
+
