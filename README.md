@@ -1,9 +1,7 @@
 # Team 12 - DMR Capstone
-[![Build Status](https://travis-ci.com/dmr-capstone/dmr-capstone.svg?branch=master)](https://travis-ci.com/dmr-capstone/dmr-capstone)
 
 ## Fiscal Shock
-*Fiscal Shock* is an edutainment first-person shooter (FPS) game intended to teach teenagers the effects of debt. The game is sponsored by our client, Dr. Brian Ricks, a Computer Science professor at UNO.
-
+*Fiscal Shock* is an edutainment first-person shooter (FPS) game intended to teach teenagers the effects of debt. 
 ### How to Play
 1. Download an appropriate release from the "Assets" section on the [releases](https://github.com/dmr-capstone/dmr-capstone/releases) page.
 2. Extract the archive and run the executable file inside the extracted folder.
@@ -30,3 +28,11 @@
 
 ## Documentation
 You can view our documentation on [GitHub Pages](https://dmr-capstone.github.io/dmr-capstone/index.html).
+
+## Contributing
+
+Note: This repository is a fork of https://github.com/dmr-capstone/dmr-capstone as of May, 2020, at commit https://github.com/dmr-capstone/dmr-capstone/commit/7be33dab8ff5cf9c3b9d0f35945b9070b7f50568
+
+In order to build this game you need to follow two steps
+1. Clone this repository and open in in Unity
+1. Download and extract the unitypackage found in the original repository [here](https://github.com/dmr-capstone/fiscal-shock/releases/tag/handoff).
